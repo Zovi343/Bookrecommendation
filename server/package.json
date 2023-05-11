@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --max-old-space-size=4096 server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.0.14",
+    "express": "^4.18.2",
+    "stream-json": "^1.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
